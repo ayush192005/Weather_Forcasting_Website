@@ -27,20 +27,19 @@ body {
 }
 
 .logo img {
-    width: 55px;
+    width: 50px;
     height: 50px;
+    padding-left: 10px;
 }
 
 .logo_two {
     padding-left: 60px;
 }
-.user_name {
-    display: flex;
-}
 
 .logo_two img {
     width: 60px;
     height: 60px;
+    padding-top: 10px;
 }
 
 .nav_center {
@@ -50,8 +49,8 @@ body {
 }
 
 .search_bar {
-    height: 40px;
-    background-color: #e6e6e6;
+    height: 50px;
+    background-color: #f0f0f0;
     border: none;
     border-radius: 10px;
     font-size: 20px;
@@ -66,7 +65,7 @@ body {
     height: 20px;
     width: 200px;
     border: none;
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
     padding-left: 20px;
 }
 
@@ -81,8 +80,8 @@ body {
 }
 
 .bell_logo button {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     border: none;
     border-radius: 50px;
 }
@@ -104,7 +103,7 @@ body {
 .left_navbar{
     width: 130px;
    height: 841px;
-    background-color: black;
+    background-color: rgb(204, 0, 255);
 }
 
 .main_frame{
