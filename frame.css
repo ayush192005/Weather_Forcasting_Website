@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,63 +12,37 @@ body {
 .container {
     display: flex;
     max-width: 1200px;
-    margin : 0 auto;
+    width: 100%;
 }
 
-.left_sidebar {
-    padding: 40px 10px;
-    max-width: fit-content;
-    align-items: center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    gap: 40px;
-}
-
-.logo {
+.side_panel {
     display: flex;
     flex-direction: column;
+    padding: 30px;
     align-items: center;
-    justify-content: center;
+}  
+.logo_section {
+    display: ;
 }
-
-.logo img {
+.menu_buttons{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   margin-top: 50px;
+} 
+.btn1 {
+    font-size: 20px;
+    border: none;
     width: 50px;
     height: 50px;
+    background-color: blue;
 }
 
-.icons {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+.btn1:hover{
+    width: 30px;
+    height: 30px;
+   background-color: orange;
 }
-
-.chart_icon {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: 0.3s ease-in-out;
-}
-
-.chart_icon:hover {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    background-color: rgb(255, 136, 0);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: scale(1.2);
-}
-.profile_logo {
-    display: flex;
-    flex-direction: column;
-    /* flex-direction: row; */
-}
-.profile_logo img{
-    width: 60px;
-    height: 60px;
+.sidebar_bottom {
+    margin-top: 260px;
 }
